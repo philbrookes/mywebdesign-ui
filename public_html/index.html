@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="mywebdesign-app">
+    <head>
+        <title>{{ title }}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
+        <script type="text/javascript" src="/bower_components/angular-route/angular-route.min.js"></script>
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="/css/style.css"> 
+        <script type="text/javascript" src="/js/app.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="header_inner" class="fixed">
+		<div id="logo">
+                    <a href="#/"><img border="0" class="ccm-image-block" alt="My Web Design" src="/media/mwd.png" width="166" height="80" /><p style="text-align: center;"><span style="font-size: small; color: #ffffff;"><strong>Web Design made easy</strong></span></p></a>
+                </div>
+                <menu />
+            </div>
+        </div>
+        <div id="main" ng-view>
+        </div>
+        <div id="footer" class="fixed">
+        &copy; 2015 <a href="/#/">My Web Design</a> All rights reserved 
+        </div>
+    </body>
+</html>

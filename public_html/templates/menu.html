@@ -1,0 +1,13 @@
+<div id="menu" ng-controller="MenuController">
+    <ul class="nav-header">
+        <li ng-class="{selected:isActive('/')}" class="first">
+            <a ng-class="{selected:isActive('/')}" class="" ng-href="#/">Home</a>
+        </li>
+        <li ng-class="{selected:isActive('/contact-us')}">
+            <a ng-class="{selected:isActive('/contact-us')}" ng-href="#/contact-us">Contact Us</a>
+        </li>
+        <li ng-class="{selected:isActive('/portfolio')}">
+            <a ng-class="{selected:isActive('/portfolio')}" ng-href="#/portfolio">Port Folio</a>
+        </li>
+    </ul>
+</div>
