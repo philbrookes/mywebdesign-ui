@@ -340,126 +340,220 @@ div.sidebar ul
 
 /* LAYOUT - 3 COLUMNS */
 
-	/* Primary content */
-	
-	#primaryContent_3columns
-	{
-	position: relative;
-	margin-right: 34em;
-	}
-	
-	#columnA_3columns
-	{
-	position: relative;
-	float: left;
-	width: 100%;
-	margin-right: -34em;
-	padding-right: 2em;
-	}
-	
-	/* Secondary Content */
-	
-	#secondaryContent_3columns
-	{
-	float: right;
-	}
-	
-	#columnB_3columns
-	{
-	width: 13.0em;
-	float: left;
-	padding: 0em 2em 0.5em 2em;
-	border-left: dotted 1px #E1E1E1;
-	}
-	
-	#columnC_3columns
-	{
-	width: 13.0em;
-	float: left;
-	padding: 0em 0em 0.5em 2em;
-	border-left: dotted 1px #E1E1E1;
-	}
+/* Primary content */
+
+#primaryContent_3columns
+{
+position: relative;
+margin-right: 34em;
+}
+
+#columnA_3columns
+{
+position: relative;
+float: left;
+width: 100%;
+margin-right: -34em;
+padding-right: 2em;
+}
+
+/* Secondary Content */
+
+#secondaryContent_3columns
+{
+float: right;
+}
+
+#columnB_3columns
+{
+width: 13.0em;
+float: left;
+padding: 0em 2em 0.5em 2em;
+border-left: dotted 1px #E1E1E1;
+}
+
+#columnC_3columns
+{
+width: 13.0em;
+float: left;
+padding: 0em 0em 0.5em 2em;
+border-left: dotted 1px #E1E1E1;
+}
 
 /* LAYOUT - 2 COLUMNS LEFT */
 
-	/* Primary content */
-	
-	#primaryContent_2columns_left
-	{
-	position: relative;
-	margin-left: 0;
-	}
-	
-	#columnA_2columns_left
-	{
-	position: relative;
-	float: right;
-	width: 100%;
-	margin-left: -17em;
-	padding-left: 2em;
-	}
-	
-	/* Secondary Content */
-	
-	#secondaryContent_2columns_left
-	{
-	float: left;
-	}
-	
-	#columnC_2columns_left
-	{
-	width: 13.0em;
-	float: right;
-	padding: 0em 0em 0.5em 2em;
-	border-right: dotted 1px #E1E1E1;
-	}
+/* Primary content */
+
+#primaryContent_2columns_left
+{
+position: relative;
+margin-left: 0;
+}
+
+#columnA_2columns_left
+{
+position: relative;
+float: right;
+width: 100%;
+margin-left: -17em;
+padding-left: 2em;
+}
+
+/* Secondary Content */
+
+#secondaryContent_2columns_left
+{
+float: left;
+}
+
+#columnC_2columns_left
+{
+width: 13.0em;
+float: right;
+padding: 0em 0em 0.5em 2em;
+border-right: dotted 1px #E1E1E1;
+}
 
 
 /* LAYOUT - 2 COLUMNS */
 
-	/* Primary content */
-	
-	#primaryContent_2columns
-	{
-	position: relative;
-	margin-right: 0;
-	}
-	
-	#columnA_2columns
-	{
-	position: relative;
-	float: left;
-	width: 100%;
-	margin-right: -17em;
-	padding-right: 2em;
-	}
-	
-	/* Secondary Content */
-	
-	#secondaryContent_2columns
-	{
-	float: right;
-	}
-	
-	#columnC_2columns
-	{
-	width: 13.0em;
-	float: left;
-	padding: 0em 0em 0.5em 2em;
-	border-left: dotted 1px #E1E1E1;
-	}
+/* Primary content */
+
+#primaryContent_2columns
+{
+position: relative;
+margin-right: 0;
+}
+
+#columnA_2columns
+{
+position: relative;
+float: left;
+width: 100%;
+margin-right: -17em;
+padding-right: 2em;
+}
+
+/* Secondary Content */
+
+#secondaryContent_2columns
+{
+float: right;
+}
+
+#columnC_2columns
+{
+width: 13.0em;
+float: left;
+padding: 0em 0em 0.5em 2em;
+border-left: dotted 1px #E1E1E1;
+}
 
 /* LAYOUT - COLUMNLESS */
 
-	/* Primary content */
-	
-	#primaryContent_columnless
-	{
-	position: relative;
-	}
-	
-	#columnA_columnless
-	{
-	position: relative;
-	width: 100%;
-	}
+/* Primary content */
+
+#primaryContent_columnless
+{
+position: relative;
+}
+
+#columnA_columnless
+{
+position: relative;
+width: 100%;
+}
+
+.block-item {
+    border: 2px solid #999;
+    margin: 10px;
+    padding: 50px 20px;
+    -webkit-box-shadow: 2px -2px 30px -11px rgba(50,50,50,0.75);
+    -moz-box-shadow: 2px -2px 30px -11px rgba(50,50,50,0.75);
+    box-shadow: 2px -2px 30px -11px rgba(50,50,50,0.75);
+    border-radius: 10px;
+    background-color: #aliceblue;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    width: 30%;
+    float: left;
+}
+
+.block-item:hover {
+    -webkit-box-shadow: 2px -2px 40px -11px rgba(100,100,150,0.75);
+    -moz-box-shadow: 2px -2px 40px -11px rgba(100,100,150,0.75);
+    box-shadow: 2px -2px 40px -11px rgba(100,100,150,0.75);
+    cursor: pointer;
+    border-color:#99b;
+    background-color: #eef;
+}
+
+.label {
+    font-weight: bold;
+    clear: left;
+    float: left;
+}
+.label.black {
+    color: #333;
+}
+.label.form {
+    margin-top: 10px;
+}
+div.product-details span.value {
+    font-size: 75%;
+    color: #333;
+    clear: right;
+    float: left;
+}
+
+.button {
+    float: left;
+    font-size: 125%;
+    margin: 10px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid #CCC;
+    background-color: #EEE;
+    color: #333;
+    cursor: pointer;
+}
+.button:hover{
+    border: 1px solid #DDD;
+    background-color: #FFF;
+    color: #000;
+}
+.button.primary {
+    border: 1px solid #FF790B;
+    background-color: #FF9B2D;
+    color: #EEE;
+}
+.button.primary:hover {
+    border: 1px solid #FF9B2D;
+    background-color: #FFBD4F;
+    color: #AA780A;
+}
+.button.alert {
+    border: 1px solid #F00;
+    background-color: #F66;
+    color: #800;
+}
+.button.alert:hover {
+    border: 1px solid #F66;
+    background-color: #FAA;
+    color: #500;
+}
+.display-case {
+    width: 100%;
+}
+.display-case .shelf {
+    width: 950px;
+    display: table;
+}
+.display-case .shelf .display{
+    display: table-cell;
+    height: 250px;
+    margin: 10px;
+    border: 1px solid black;
+}

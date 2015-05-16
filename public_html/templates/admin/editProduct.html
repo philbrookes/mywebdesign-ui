@@ -1,0 +1,18 @@
+<div id="main_inner" class="fixed">
+    <div id="primaryContent_2columns">
+        <div id="columnA_2columns">
+            <h2>Edit {{product.name}}</h2>
+            <span class="label black form">name</span>
+            <span class="value"><input class="form-control" ng-model="product.name"/></span>
+            <span class="label black form">Price</span>
+            <span class="value"><input class="form-control" ng-model="product.price"/></span>
+            <span class="label black form">Cost</span>
+            <span class="value"><input class="form-control" ng-model="product.cost"/></span>
+            <span class="label black form">Billing Period</span>
+            <span class="value"><input class="form-control" ng-model="product.repeating"/></span>
+            <a class="button primary" ng-href="#/admin/product/{{product.id}}">Save</a>
+            <a class="button alert" ng-click="delete();">Delete</a>
+            <a class="button" ng-href="#/admin/product/{{product.id}}">Exit</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+<div id="main_inner" class="fixed">
+    <div id="primaryContent_2columns">
+        <div id="columnA_2columns" class="product-details">
+            <h2 ng-bind="product.name"></h2>
+            <span class="label black">Price</span>
+            <span class="value" ng-bind="product.name"></span>
+            <span class="label black">Cost</span>
+            <span class="value" ng-bind="product.cost"></span>
+            <span class="label black">Billing Period</span>
+            <span class="value" ng-bind="product.repeating"></span>
+            <div class="clearfix"></div>
+            <a class="button primary" ng-href="#/admin/product">Done</a>
+            <a class="button" ng-href="#/admin/product/{{product.id}}/edit">Edit</a>
+            <a class="button alert" ng-href="#/admin/product/{{product.id}}/delete">Delete</a>
+        </div>
+    </div>
+</div>

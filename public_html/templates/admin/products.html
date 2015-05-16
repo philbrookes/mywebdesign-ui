@@ -1,0 +1,12 @@
+<div id="main_inner" class="fixed">
+    <div id="primaryContent_2columns">
+        <div id="columnA_2columns">
+            <h2>Products</h2>
+            <a ng-repeat="(id, product) in products" class="block-item" ng-href="#/admin/product/{{product.id}}">
+                {{product.name}}
+            </a>
+            <a class="button primary" ng-href="#/admin">Done</a>
+            <a class="button" ng-href="#/admin/product/create">Create Product</a>
+        </div>
+    </div>
+</div>
